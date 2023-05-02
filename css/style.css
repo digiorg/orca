@@ -1,99 +1,86 @@
 @font-face {
     font-family: 'Vela Sans';
     src: url('../fonts/otf/VelaSans-ExtraLight.otf');
-    src: local('Vela Sans Extralight'), local('Vela Sans-Extralight'),
+    src: local('Vela Sans Extralight'), local('VelaSans-Extralight'),
         url("../fonts/otf/VelaSans-ExtraLight.otf") format("opentype"),
-        url('../fonts/GrtskPeta-Extralight.woff2') format('woff2'),
-        url('../fonts/GrtskPeta-Extralight.woff') format('woff'),
-        url('../fonts/GrtskPeta-Extralight.ttf') format('truetype');
+        url('../fonts/web/VelaSans-ExtraLight.woff2') format('woff2'),
+        url('../fonts/web/VelaSans-ExtraLight.woff') format('woff'),
+        url('../fonts/ttf/VelaSans-ExtraLight.ttf') format('truetype');
     font-style: normal;
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Vela Sans';
-    src: url('../fonts/GrtskPeta-Thin.eot');
-    src: local('Vela Sans Thin'), local('GrtskPeta-Thin'),
-        url("../fonts/") format("opentype"),
-        url('../fonts/GrtskPeta-Thin.woff2') format('woff2'),
-        url('../fonts/GrtskPeta-Thin.woff') format('woff'),
-        url('../fonts/GrtskPeta-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Vela Sans';
-    src: url('../fonts/GrtskPeta-Regular.eot');
-    src: local('Vela Sans Regular'), local('GrtskPeta-Regular'),
-        url("../fonts/") format("opentype"),
-        url('../fonts/GrtskPeta-Regular.woff2') format('woff2'),
-        url('../fonts/GrtskPeta-Regular.woff') format('woff'),
-        url('../fonts/GrtskPeta-Regular.ttf') format('truetype');
+    src: url('../fonts/otf/VelaSans-Regular.otf');
+    src: local('Vela Sans Regular'), local('VelaSans-Regular'),
+        url("../fonts/otf/VelaSans-Regular.otf") format("opentype"),
+        url('../fonts/web/VelaSans-Regular.woff2') format('woff2'),
+        url('../fonts/web/VelaSans-Regular.woff') format('woff'),
+        url('../fonts/ttf/VelaSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Vela Sans';
-    src: url('../fonts/GrtskPeta-Bold.eot');
-    src: local('Vela Sans Bold'), local('GrtskPeta-Bold'),
-        url("../fonts/") format("opentype"),
-        url('../fonts/GrtskPeta-Bold.woff2') format('woff2'),
-        url('../fonts/GrtskPeta-Bold.woff') format('woff'),
-        url('../fonts/GrtskPeta-Bold.ttf') format('truetype');
+    src: url('../fonts/otf/VelaSans-Bold.otf');
+    src: local('Vela Sans Bold'), local('VelaSans-Bold'),
+        url('../fonts/otf/VelaSans-Bold.otf') format("opentype"),
+        url('../fonts/web/VelaSans-Bold.woff2') format('woff2'),
+        url('../fonts/web/VelaSans-Bold.woff') format('woff'),
+        url('../fonts/ttf/VelaSans-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Vela Sans';
-    src: url('../fonts/GrtskPeta-Extralight.eot');
-    src: local('Vela Sans Extralight'), local('GrtskPeta-Extralight'),
-        url("../fonts/") format("opentype"),
-        url('../fonts/GrtskPeta-Extralight.woff2') format('woff2'),
-        url('../fonts/GrtskPeta-Extralight.woff') format('woff'),
-        url('../fonts/GrtskPeta-Extralight.ttf') format('truetype');
-    font-weight: 200;
+    src: url('../fonts/otf/VelaSans-ExtraBold.otf');
+    src: local('Vela Sans Extrabold'), local('VelaSans-ExtraBold'),
+        url('../fonts/otf/VelaSans-ExtraBold.otf') format("opentype"),
+        url('../fonts/web/VelaSans-ExtraBold.woff2') format('woff2'),
+        url('../fonts/web/VelaSans-ExtraBold.woff') format('woff'),
+        url('../fonts/ttf/VelaSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Vela Sans';
-    src: url('../fonts/GrtskPeta-Medium.eot');
-    src: local('Vela Sans Medium'), local('GrtskPeta-Medium'),
-        url("../fonts/") format("opentype"),
-        url('../fonts/GrtskPeta-Medium.woff2') format('woff2'),
-        url('../fonts/GrtskPeta-Medium.woff') format('woff'),
-        url('../fonts/GrtskPeta-Medium.ttf') format('truetype');
+    src: url('../fonts/otf/VelaSans-Medium.otf');
+    src: local('Vela Sans Medium'), local('VelaSans-Medium'),
+        url('../fonts/otf/VelaSans-Medium.otf') format("opentype"),
+        url('../fonts/web/VelaSans-Medium.woff2') format('woff2'),
+        url('../fonts/web/VelaSans-Medium.woff') format('woff'),
+        url('../fonts/ttf/VelaSans-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Vela Sans';
-    src: url('../fonts/GrtskPeta-Light.eot');
-    src: local('Vela Sans Light'), local('GrtskPeta-Light'),
-        url("../fonts/") format("opentype"),
-        url('../fonts/GrtskPeta-Light.woff2') format('woff2'),
-        url('../fonts/GrtskPeta-Light.woff') format('woff'),
-        url('../fonts/GrtskPeta-Light.ttf') format('truetype');
+    src: url('../fonts/otf/VelaSans-Light.otf');
+    src: local('Vela Sans Light'), local('VelaSans-Light'),
+        url('../fonts/otf/VelaSans-Light.otf') format("opentype"),
+        url('../fonts/web/VelaSans-Light.woff2') format('woff2'),
+        url('../fonts/web/VelaSans-Light.woff') format('woff'),
+        url('../fonts/ttf/VelaSans-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Vela Sans';
-    src: url('../fonts/GrtskPeta-Semibold.eot');
-    src: local('Vela Sans Semibold'), local('GrtskPeta-Semibold'),
-        url("../fonts/") format("opentype"),
-        url('../fonts/GrtskPeta-Semibold.woff2') format('woff2'),
-        url('../fonts/GrtskPeta-Semibold.woff') format('woff'),
-        url('../fonts/GrtskPeta-Semibold.ttf') format('truetype');
+    src: url('../fonts/otf/VelaSans-SemiBold.otf');
+    src: local('Vela Sans Semibold'), local('VelaSans-Semibold'),
+        url('../fonts/otf/VelaSans-SemiBold.otf') format("opentype"),
+        url('../fonts/web/VelaSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/web/VelaSans-SemiBold.woff') format('woff'),
+        url('../fonts/ttf/VelaSans-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
-
 
 
 *{
@@ -126,4 +113,189 @@ body::-webkit-scrollbar-thumb {
     border-radius: 0px;
     -webkit-box-shadow: inset 0 0 px rgba(17, 32, 165, 1);
     background-color: rgba(17, 32, 165, 1);
+}
+
+header {
+    width: 100%;
+    height: 100px;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    margin-left: 80px;
+    width: 134.34px;
+    height: 52.68px;
+}
+
+header > ul {
+    display: flex;
+    margin-right: 105px;
+}
+
+.header-ul-li {
+    font-family: 'Vela Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23.7073px;
+    line-height: 32px;
+    color: #1F1D29;
+    margin-left: 48px;
+}
+
+.orcacodes-p {
+    font-family: 'Vela Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #1120A5;
+    margin-top: 43px;
+}
+
+.projects-p {
+    font-family: 'Vela Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 53px;
+    /* or 82% */
+    
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: white;
+    -webkit-text-stroke: 3px #1120A5;
+    margin-top: 45px;
+    
+    /*border: 3px solid #1120A5;*/
+}
+
+.content-project {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+
+}
+
+.content-project-p {
+    font-family: 'Vela Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 47px;
+    color: #1120A5;
+    margin-top: 100px;
+}
+
+.content-project-p-img {
+    margin-left: 18px;
+}
+
+.content-project-div {
+    width: 1625.54px;
+    height: 876.86px;
+    background-color: #1120A5;
+    box-shadow: 0px 5px 20px rgba(34, 84, 166, 0.3);
+    border-radius: 37.1553px;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    margin-top: 42px;
+}
+
+.project-animations {
+    font-family: 'Vela Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 32px;
+    margin-top: 110px;
+    color: #1120A5;
+    margin-left: 154px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    margin-top: 42px;
+}
+
+.slider-cards {
+    width: 1641px;
+    overflow: hidden;
+}
+
+.slider-card {
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 0.5s;
+}
+
+.slider-card-img {
+    margin-right: 9px;
+}
+
+.content-project-div-background-one {
+    background-image: url("../img/dental.jpg");
+    width: 1626px;
+    height: 914.63px;
+    margin-top: 43px;
+}
+
+.content-project-div-background-two {
+    background-image: url("../img/sport.jpg");
+    width: 1626px;
+    height: 914.63px;
+    margin-top: 43px;
+}
+
+.content-project-div-background-three {
+    background-image: url("../img/hr.jpg");
+    width: 1626px;
+    height: 914.63px;
+    margin-top: 43px;
+}
+
+.content-project-div-background-four {
+    background-image: url("../img/grant.jpg");
+    width: 1626px;
+    height: 914.63px;
+    margin-top: 43px;
+}
+
+hr {
+    height: 1px;
+    width: 1810px;
+    background-color: rgba(17, 32, 165, 0.3);
+    margin-top: 163px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer > p {
+    font-family: 'Vela Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 63px;
+    line-height: 32px;
+    color: #000000;   
+    margin-top: 55px;
+    margin-left: 126px;
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-between;
+    width: 284px;
+    margin-top: 32px;
+    margin-left: 126px;
 }
