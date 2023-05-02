@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Vela Sans';
+    src: url('../fonts/otf/VelaSans-ExtraLight.otf');
+    src: local('Vela Sans Extralight'), local('Vela Sans-Extralight'),
+        url("../fonts/otf/VelaSans-ExtraLight.otf") format("opentype"),
+        url('../fonts/GrtskPeta-Extralight.woff2') format('woff2'),
+        url('../fonts/GrtskPeta-Extralight.woff') format('woff'),
+        url('../fonts/GrtskPeta-Extralight.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Vela Sans';
+    src: url('../fonts/GrtskPeta-Thin.eot');
+    src: local('Vela Sans Thin'), local('GrtskPeta-Thin'),
+        url("../fonts/") format("opentype"),
+        url('../fonts/GrtskPeta-Thin.woff2') format('woff2'),
+        url('../fonts/GrtskPeta-Thin.woff') format('woff'),
+        url('../fonts/GrtskPeta-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vela Sans';
+    src: url('../fonts/GrtskPeta-Regular.eot');
+    src: local('Vela Sans Regular'), local('GrtskPeta-Regular'),
+        url("../fonts/") format("opentype"),
+        url('../fonts/GrtskPeta-Regular.woff2') format('woff2'),
+        url('../fonts/GrtskPeta-Regular.woff') format('woff'),
+        url('../fonts/GrtskPeta-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vela Sans';
+    src: url('../fonts/GrtskPeta-Bold.eot');
+    src: local('Vela Sans Bold'), local('GrtskPeta-Bold'),
+        url("../fonts/") format("opentype"),
+        url('../fonts/GrtskPeta-Bold.woff2') format('woff2'),
+        url('../fonts/GrtskPeta-Bold.woff') format('woff'),
+        url('../fonts/GrtskPeta-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vela Sans';
+    src: url('../fonts/GrtskPeta-Extralight.eot');
+    src: local('Vela Sans Extralight'), local('GrtskPeta-Extralight'),
+        url("../fonts/") format("opentype"),
+        url('../fonts/GrtskPeta-Extralight.woff2') format('woff2'),
+        url('../fonts/GrtskPeta-Extralight.woff') format('woff'),
+        url('../fonts/GrtskPeta-Extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vela Sans';
+    src: url('../fonts/GrtskPeta-Medium.eot');
+    src: local('Vela Sans Medium'), local('GrtskPeta-Medium'),
+        url("../fonts/") format("opentype"),
+        url('../fonts/GrtskPeta-Medium.woff2') format('woff2'),
+        url('../fonts/GrtskPeta-Medium.woff') format('woff'),
+        url('../fonts/GrtskPeta-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vela Sans';
+    src: url('../fonts/GrtskPeta-Light.eot');
+    src: local('Vela Sans Light'), local('GrtskPeta-Light'),
+        url("../fonts/") format("opentype"),
+        url('../fonts/GrtskPeta-Light.woff2') format('woff2'),
+        url('../fonts/GrtskPeta-Light.woff') format('woff'),
+        url('../fonts/GrtskPeta-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vela Sans';
+    src: url('../fonts/GrtskPeta-Semibold.eot');
+    src: local('Vela Sans Semibold'), local('GrtskPeta-Semibold'),
+        url("../fonts/") format("opentype"),
+        url('../fonts/GrtskPeta-Semibold.woff2') format('woff2'),
+        url('../fonts/GrtskPeta-Semibold.woff') format('woff'),
+        url('../fonts/GrtskPeta-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+    background-color: rgba(17, 32, 165, 1);
+  }
+
+  body::-webkit-scrollbar-track {
+	background-color: rgba(17, 32, 165, 1);
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+body::-webkit-scrollbar-thumb {
+    width: 100%;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0 px rgba(17, 32, 165, 1);
+    background-color: rgba(17, 32, 165, 1);
+}
