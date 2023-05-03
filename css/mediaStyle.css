@@ -1,0 +1,330 @@
+@media (min-width: 1280px) and (max-width: 1770px) { 
+    @font-face {
+        font-family: 'Vela Sans';
+        src: url('../fonts/otf/VelaSans-ExtraLight.otf');
+        src: local('Vela Sans Extralight'), local('VelaSans-Extralight'),
+            url("../fonts/otf/VelaSans-ExtraLight.otf") format("opentype"),
+            url('../fonts/web/VelaSans-ExtraLight.woff2') format('woff2'),
+            url('../fonts/web/VelaSans-ExtraLight.woff') format('woff'),
+            url('../fonts/ttf/VelaSans-ExtraLight.ttf') format('truetype');
+        font-style: normal;
+        font-weight: 400;
+    }
+    
+    @font-face {
+        font-family: 'Vela Sans';
+        src: url('../fonts/otf/VelaSans-Regular.otf');
+        src: local('Vela Sans Regular'), local('VelaSans-Regular'),
+            url("../fonts/otf/VelaSans-Regular.otf") format("opentype"),
+            url('../fonts/web/VelaSans-Regular.woff2') format('woff2'),
+            url('../fonts/web/VelaSans-Regular.woff') format('woff'),
+            url('../fonts/ttf/VelaSans-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Vela Sans';
+        src: url('../fonts/otf/VelaSans-Bold.otf');
+        src: local('Vela Sans Bold'), local('VelaSans-Bold'),
+            url('../fonts/otf/VelaSans-Bold.otf') format("opentype"),
+            url('../fonts/web/VelaSans-Bold.woff2') format('woff2'),
+            url('../fonts/web/VelaSans-Bold.woff') format('woff'),
+            url('../fonts/ttf/VelaSans-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Vela Sans';
+        src: url('../fonts/otf/VelaSans-ExtraBold.otf');
+        src: local('Vela Sans Extrabold'), local('VelaSans-ExtraBold'),
+            url('../fonts/otf/VelaSans-ExtraBold.otf') format("opentype"),
+            url('../fonts/web/VelaSans-ExtraBold.woff2') format('woff2'),
+            url('../fonts/web/VelaSans-ExtraBold.woff') format('woff'),
+            url('../fonts/ttf/VelaSans-ExtraBold.ttf') format('truetype');
+        font-weight: 800;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Vela Sans';
+        src: url('../fonts/otf/VelaSans-Medium.otf');
+        src: local('Vela Sans Medium'), local('VelaSans-Medium'),
+            url('../fonts/otf/VelaSans-Medium.otf') format("opentype"),
+            url('../fonts/web/VelaSans-Medium.woff2') format('woff2'),
+            url('../fonts/web/VelaSans-Medium.woff') format('woff'),
+            url('../fonts/ttf/VelaSans-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Vela Sans';
+        src: url('../fonts/otf/VelaSans-Light.otf');
+        src: local('Vela Sans Light'), local('VelaSans-Light'),
+            url('../fonts/otf/VelaSans-Light.otf') format("opentype"),
+            url('../fonts/web/VelaSans-Light.woff2') format('woff2'),
+            url('../fonts/web/VelaSans-Light.woff') format('woff'),
+            url('../fonts/ttf/VelaSans-Light.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Vela Sans';
+        src: url('../fonts/otf/VelaSans-SemiBold.otf');
+        src: local('Vela Sans Semibold'), local('VelaSans-Semibold'),
+            url('../fonts/otf/VelaSans-SemiBold.otf') format("opentype"),
+            url('../fonts/web/VelaSans-SemiBold.woff2') format('woff2'),
+            url('../fonts/web/VelaSans-SemiBold.woff') format('woff'),
+            url('../fonts/ttf/VelaSans-SemiBold.ttf') format('truetype');
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    
+    *{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    body::-webkit-scrollbar {
+        width: 6px;
+        height: 8px;
+        background-color: rgba(17, 32, 165, 1);
+      }
+    
+      body::-webkit-scrollbar-track {
+        background-color: rgba(17, 32, 165, 1);
+        border-left: 3px solid white;
+        border-right: 3px solid white;
+    }
+    
+    body::-webkit-scrollbar-thumb {
+        width: 100%;
+        border-radius: 0px;
+        -webkit-box-shadow: inset 0 0 px rgba(17, 32, 165, 1);
+        background-color: rgba(17, 32, 165, 1);
+    }
+    
+    header {
+        width: 100%;
+        height: 66.67px;  
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .header-logo {
+        margin-left: 80px;
+        width: 89.56px;
+        height: 35.12px;
+    }
+    
+    header > ul {
+        display: flex;
+        margin-right: 70px;
+    }
+    
+    .header-ul-li {
+        font-family: 'Vela Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15.8049px;
+        line-height: 21px;
+        color: #1F1D29;
+        margin-left: 32px;
+    }
+    
+    .orcacodes-p {
+        font-family: 'Vela Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 53.3333px;
+        line-height: 40px;
+        text-transform: uppercase;
+        color: #1120A5;
+        margin-top: 29px;
+    }
+    
+    .projects-p {
+        font-family: 'Vela Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42.6667px;
+        line-height: 35px;
+        /* or 82% */
+        
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: white;
+        -webkit-text-stroke: 3px #1120A5;
+        margin-top: 30px;
+        
+        /*border: 3px solid #1120A5;*/
+    }
+    
+    .content-project {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    
+    }
+    
+    .content-project-p {
+        font-family: 'Vela Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42.6667px;
+        line-height: 31px;
+        margin-top: 67px;
+    }
+    
+    .content-project-p-img {
+        margin-left: 14px;
+        height: 27px;
+        width: 28px;
+    }
+    
+    .content-project-div {
+        width: 1083.7px;
+        height: 584.58px;
+        background-color: #1120A5;
+        box-shadow: 0px 5px 20px rgba(34, 84, 166, 0.3);
+        border-radius: 37.1553px;
+        display: flex;  
+        align-items: center;
+        justify-content: center;
+        margin-top: 28px;
+    }
+
+    #open-modal {
+        width: 870.67px;
+        height: 483.7px;
+    }
+    
+    .project-animations {
+        font-family: 'Vela Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26.6667px;
+        line-height: 21px;
+        margin-top: 74px;
+        color: #1120A5;
+    }
+    
+    .slider {
+        display: flex;
+        align-items: center;
+        margin-top: 42px;
+    }
+
+    .width-div {
+        margin-top: 27px; 
+        width: 1136px;
+    }
+    
+    .slider-cards {
+        display: flex;
+        width: 1094px;
+        overflow: hidden;
+        height: 280px;
+        align-items: center
+    }
+    
+    .slider-card {
+        display: flex;
+        position: relative;
+        left: 0;
+        transition: all ease 0.5s;
+    }
+    
+    .slider-card-img {
+        margin-left: 9px;
+        width: 266.67px;
+        height: 266.67px;
+        
+    }
+    
+    .content-project-div-background-one {
+        background-image: url("../img/dental.jpg");
+        width: 1084px;
+        height: 609.75px;
+        box-shadow: 0px 5px 20px rgba(34, 84, 166, 0.3);
+        border-radius: 25.1217px;
+        margin-top: 29px;
+    }
+    
+    .content-project-div-background-two {
+        background-image: url("../img/sport.jpg");
+        width: 1084px;
+        height: 623.02px;
+        margin-top: 43px;
+        border-radius: 25.1217px;
+    }
+    
+    .content-project-div-background-three {
+        background-image: url("../img/hr.jpg");
+        width: 1084px;
+        height: 623.02px;
+        margin-top: 43px;
+        border-radius: 25.1217px;
+    }
+    
+    .content-project-div-background-four {
+        background-image: url("../img/grant.jpg");
+        width: 1084px;
+        height: 623.02px;
+        margin-top: 43px;
+        border-radius: 25.1217px;
+    }
+    
+    hr {
+        height: 1px;
+        width: 1810px;
+        background-color: rgba(17, 32, 165, 0.3);
+        margin-top: 163px;
+    }
+    
+    footer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    footer > p {
+        font-family: 'Vela Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 21px;
+        color: #000000;   
+        margin-top: 39px;
+        margin-left: 84px;
+    }
+    
+    footer > div {
+        display: flex;
+        justify-content: space-between;
+        width: 189.33px;
+        margin-top: 20px;
+        margin-left: 84px;
+    }
+    
+    footer > div > a > img {
+        width: 33.33px;
+        height: 33.33px;   
+    }
+
+ }
