@@ -14,8 +14,8 @@
     <header>
         <img class="header-logo" src="./img/logo.svg">
         <ul>
-            <a href="#"><li class="header-ul-li">projects</li></a>
-            <a href="#"><li class="header-ul-li">contacts</li></a>
+            <a class="scroll-animated" href="#project"><li class="header-ul-li">projects</li></a>
+            <a class="scroll-animated" href="#contacts"><li class="header-ul-li">contacts</li></a>
         </ul>
     </header>
 
@@ -31,7 +31,7 @@
         </a>
 
         <a href="orca.html">
-            <div class="content-project-div">
+            <div id="project" class="content-project-div">
                 <img id="open-modal" style="border-radius: 33.7021px;" src="./img/orca-project.jpg">
             </div>
         </a>
@@ -67,7 +67,7 @@
 
 
     <div class="content-project">
-        <a href="">
+        <a href="https://dentalworld.ru">
             <p class="content-project-p">
                 Dentalwordl<img class="content-project-p-img" src="./icon/website.svg" alt="">
             </p>
@@ -134,7 +134,7 @@
     <hr>
 
     <footer>
-        <p>CONTACTS</p>
+        <p id="contacts">CONTACTS</p>
 
         <div>
             <a href="https://www.facebook.com/orca.codes"><img src="./icon/facebook.svg" alt=""></a>
@@ -144,9 +144,17 @@
         </div>
     </footer>
 
-
-    <script src="js/modalPhoto.js"></script>
     <script src="js/jquery.min.js"></script>
+    <script>
+        $("a.scroll-animated").on("click", function(e){
+            e.preventDefault();
+            var anchor = $(this).attr('href');
+            $('html, body').stop().animate({
+                scrollTop: $(anchor).offset().top - 60
+            }, 800);
+        });
+    </script>
+    <script src="js/modalPhoto.js"></script>
     <script src="js/sliderOne.js"></script>
 </body>
 </html>
