@@ -224,8 +224,11 @@ header > ul {
 }
 
 .slider-cards {
+    display: flex;
     width: 1641px;
     overflow: hidden;
+    height: 428px;
+    align-items: center
 }
 
 .slider-card {
@@ -237,34 +240,40 @@ header > ul {
 
 .slider-card-img {
     margin-right: 9px;
+    
 }
 
 .content-project-div-background-one {
     background-image: url("../img/dental.jpg");
     width: 1626px;
-    height: 914.63px;
-    margin-top: 43px;
+    height: 783.64px;
+    box-shadow: 0px 5px 20px rgba(34, 84, 166, 0.3);
+    border-radius:  37.68px 37.68px;
+    margin-top: 42px;
 }
 
 .content-project-div-background-two {
     background-image: url("../img/sport.jpg");
     width: 1626px;
-    height: 914.63px;
+    height: 934.53px;
     margin-top: 43px;
+    border-radius: 37.6825px;
 }
 
 .content-project-div-background-three {
     background-image: url("../img/hr.jpg");
     width: 1626px;
-    height: 914.63px;
+    height: 934.53px;
     margin-top: 43px;
+    border-radius: 37.6825px;
 }
 
 .content-project-div-background-four {
     background-image: url("../img/grant.jpg");
     width: 1626px;
-    height: 914.63px;
+    height: 934.53px;
     margin-top: 43px;
+    border-radius: 37.6825px;
 }
 
 hr {
