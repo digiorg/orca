@@ -257,7 +257,7 @@
     }
     
     .content-project-div-background-one {
-        background-image: url("../img/dental.jpg");
+        background-image: url("../img/dental_two.jpg");
         width: 1084px;
         height: 609.75px;
         box-shadow: 0px 5px 20px rgba(34, 84, 166, 0.3);
@@ -274,7 +274,7 @@
     }
     
     .content-project-div-background-three {
-        background-image: url("../img/hr.jpg");
+        background-image: url("../img/hr_two.jpg");
         width: 1084px;
         height: 623.02px;
         margin-top: 43px;
@@ -282,7 +282,7 @@
     }
     
     .content-project-div-background-four {
-        background-image: url("../img/grant.jpg");
+        background-image: url("../img/grantt_two.jpg");
         width: 1084px;
         height: 623.02px;
         margin-top: 43px;
