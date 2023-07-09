@@ -255,6 +255,13 @@
         height: 266.67px;
         
     }
+
+    .banner-div {
+        width: 1084px;
+        box-shadow: 0px 5px 20px rgba(34, 84, 166, 0.3);
+        border-radius: 25.1217px;
+        margin-top: 42px;
+    }
     
     .content-project-div-background-one {
         background-image: url("../img/dental_two.jpg");
@@ -327,4 +334,45 @@
         height: 33.33px;   
     }
 
+    .close {
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        position: fixed;
+        top: 80px;
+        right: 72px;
+        /* height: 40px; */
+        /* width: 78px; */
+    }
+
+    .close > img {
+        height: 50px;
+        width: 50px;
+    }
+
  }
+
+
+ @media (min-width: 2450px) { 
+    .modal {
+        width: 75%;
+        height: 90%;
+        z-index: 1;
+        position: fixed;
+        overflow-y: scroll;
+        display: none;
+        align-items: flex-start;
+        justify-content: center;
+        top: 80px;
+    }
+
+    .close {
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        position: fixed;
+        top: 80px;
+        right: 192px;
+        /* height: 40px; */
+        /* width: 78px; */
+    }
+
+  }

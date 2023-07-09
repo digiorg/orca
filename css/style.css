@@ -96,6 +96,13 @@ body{
     align-items: center;
 }
 
+.width {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1920px;
+}
+
 body::-webkit-scrollbar {
     width: 6px;
     height: 8px;
@@ -244,7 +251,15 @@ header > ul {
 
 .slider-card-img {
     margin-left: 9px;
-    
+    box-shadow: 0px 5px 20px rgba(34, 84, 166, 0.3); 
+    border-radius: 20px;
+}
+
+.banner-div {
+    width: 1626px;
+    box-shadow: 0px 5px 20px rgba(34, 84, 166, 0.3);
+    border-radius:  37.68px 37.68px;
+    margin-top: 42px;
 }
 
 .content-project-div-background-one {
@@ -311,4 +326,69 @@ footer > div {
     width: 284px;
     margin-top: 32px;
     margin-left: 126px;
+}
+
+
+.images {
+    background-size: cover;
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.divImag {
+    display: none;
+    width: 100%;
+} 
+    
+.modal{
+    width:80%;
+    height:90%;
+    z-index:1;
+    position:fixed;
+    overflow-y:scroll;
+    display:none;
+    align-items:flex-start;
+    justify-content:center;
+    top:80px;
+}
+
+
+.modal::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+    background-color: rgba(17, 32, 165, 1);
+}
+
+.modal::-webkit-scrollbar-track {
+	background-color: rgba(17, 32, 165, 1);
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+.modal::-webkit-scrollbar-thumb {
+    width: 100%;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 0 px rgba(17, 32, 165, 1);
+    background-color: rgba(17, 32, 165, 1);
+}
+
+.close{
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+    position: fixed;
+    top: 80px;
+    right: 80px;
+}
+
+.background_black {
+    display: none;
+    position: fixed;
+    background-color: rgba(0,0,0,.7);
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
 }
