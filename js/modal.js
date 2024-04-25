@@ -12,6 +12,7 @@ images.forEach(function (element, index) {
         images.src = element.querySelector('.divImag').src
         element.style.cursor = 'default'
         images.style.overflow = 'scroll'
+        images.style.overflow = 'scrolll'
         
     }
 });
